@@ -1,0 +1,13 @@
+mat-form-field{
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Pour espacer les cartes */
+}
+
+.card {
+    flex: 0 1 45%; /* Permet de donner un espace de 5% entre les cartes */
+    margin: 10px; /* Ajoute un petit espace autour des cartes */
+}

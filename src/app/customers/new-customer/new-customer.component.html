@@ -1,0 +1,23 @@
+<div class="container">
+    <mat-card class="customer-form">
+        <mat-card-header>
+            <mat-card-title>New Customer</mat-card-title>
+        </mat-card-header>
+        <mat-divider></mat-divider>
+        <mat-card-content>
+            <form [formGroup]="saveCustomerForm" (ngSubmit)="saveCustomer()">
+                <mat-form-field>
+                    <mat-label>Nom</mat-label>
+                    <input type="text" class="form-label" formControlName="name" matInput>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Email</mat-label>
+                    <input type="text" class="form-label" formControlName="email" matInput>
+                </mat-form-field>
+                <mat-card-actions>
+                    <button mat-raised-button color="primary" type="submit">Save Customer</button>
+                </mat-card-actions>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

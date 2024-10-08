@@ -1,0 +1,9 @@
+mat-form-field{
+    display: block;
+}
+
+.customer-form{
+    display: flex;
+    width: 400px;
+    margin: auto;
+}
